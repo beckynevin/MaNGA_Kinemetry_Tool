@@ -1,5 +1,5 @@
 # A Tool for Kinematic Analysis on MaNGA IFS Data
-
+Fitting kinemetry to a galaxy with a strong bar (9886-12705):
 <img src="https://github.com/beckynevin/MaNGA_Kinemetry_Tool/blob/master/kinemetry_figures/kinemetry_result_9886-12705.png" width=600>
 
 
