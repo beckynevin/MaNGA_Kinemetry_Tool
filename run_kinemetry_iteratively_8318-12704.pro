@@ -45,13 +45,6 @@ KIN_PA = MEDIAN(pa)-90
 PRINT, 'median PA', KIN_PA
 KIN_PA_e = MEDIAN(er_pa/pa)
 PA_before = MEDIAN(pa)-90
-CATCH, Error_status
-IF Error_status NE 0 THEN BEGIN
-	PRINT, 'Triangulate thing: ', Error_status
-	PRINT, !ERROR_STATE.MSG
-	CATCH, /CANCEL
-	CONTINUE
-ENDIF
 KINEMETRY, xbin, ybin, velbin, rad, pa, q, cf, X0=xcen,Y0=ycen, ntrm=10, ERROR=er_velbin, name='simulation',RANGEPA=[MEDIAN(pa)-90-1,MEDIAN(pa)-90+1],er_cf=er_cf, er_pa=er_q=er_q,/ALL, /FIXCEN, /plot
 PAQ1 = [PA_before, MEDIAN(q)]
 PAQ = Reform(Rebin(PAQ1, 2, 100), 200)
