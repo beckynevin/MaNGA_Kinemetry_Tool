@@ -1,6 +1,6 @@
 # A Tool for Kinematic Analysis on MaNGA IFS Data
 
-<img src="https://github.com/beckynevin/MaNGA_Kinemetry_Tool/blob/master/kinemetry_figures/kinemetry_result_8987-12702.png" width=600>
+<img src="https://github.com/beckynevin/MaNGA_Kinemetry_Tool/blob/master/kinemetry_figures/kinemetry_result_9886-12705.png" width=600>
 
 
 # What it does
