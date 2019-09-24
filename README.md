@@ -13,3 +13,8 @@ This tool utilizes Marvin and python command-line interfaces to:
 
 # Who it is for
 The purpose of this tool is to provide a more accessible way for users of IFS data to carry out a quick kinematic analysis.
+
+# The specifics of this repository
+The main aspect of this package is 'Extract_Kinemetry_txt.ipynb' which is a python code that downloads MaNGA maps using Marvin. It allows the user to prepare a .txt file called 'kinemetry_input_plateid.txt' that has the x and y coordinates of each spaxel and the velocity, velocity error, velocity dispersion, and velocity dispersion error at that position. More specific details are within the readme file in the kinemetry_input_txt directory.
+
+I then include a bunch of useful idl code, some of it enables the user to run kinemetry in series on multiple galaxies.
