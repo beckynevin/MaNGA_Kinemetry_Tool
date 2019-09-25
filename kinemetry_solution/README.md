@@ -4,9 +4,9 @@ There are two types of files in this directory, both of which are the outputs fr
 These files include the output parameters from the kinemetry run for each galaxy. The columns are:
 KIN_PA, KIN_PA_e, alt_v_asym, alt_s_asym, K_asym, median(q)
 <p>
-- KIN_PA = the global kinematic position angle, this is the median PA while allowing the PA to vary
-- KIN_PA_e = the error on the global position angle
-- alt_v_asym = the sum of the higher order kinematic velocity moments, 
+~KIN_PA = the global kinematic position angle, this is the median PA while allowing the PA to vary
+~KIN_PA_e = the error on the global position angle
+~alt_v_asym = the sum of the higher order kinematic velocity moments, 
 	sum = (k2 + k3 + k4 + k5)/4
         B_1_v = ABS(cf[i,2])
         elemental_v_asym[i]=sum/B_1_v
